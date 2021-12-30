@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-30T05:53:34.250Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="gLhw_rq5Q1KNYGp3VURu" version="16.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-30T05:58:00.195Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="DZtmmkxrK7t47a5OAMqj" version="16.1.0" type="github">
   <diagram id="7vXB9TgOSj29Q9VEpIP5" name="第 1 页">
     <mxGraphModel dx="1038" dy="491" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -58,7 +58,7 @@
             <mxRectangle width="150" height="53" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qpqhB_uLlABD5rDr3i2A-36" value="上移&amp;nbsp; 下移&amp;nbsp; 修改" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;" vertex="1" parent="qpqhB_uLlABD5rDr3i2A-10">
+        <mxCell id="qpqhB_uLlABD5rDr3i2A-36" value="上移&amp;nbsp; 下移&amp;nbsp; 修改&amp;nbsp; 删除" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;" vertex="1" parent="qpqhB_uLlABD5rDr3i2A-10">
           <mxGeometry x="440" width="160" height="53" as="geometry">
             <mxRectangle width="160" height="53" as="alternateBounds" />
           </mxGeometry>
