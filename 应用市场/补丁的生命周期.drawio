@@ -1,1 +1,98 @@
-<mxfile host="app.diagrams.net" modified="2021-12-30T07:47:16.447Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" version="16.1.0" etag="0pUNuP4TblwB01Xbz0Af" type="github"><diagram id="xNLSGS-XFfk-PAizz5qD">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-12-30T08:33:22.876Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="kemiP755XPfRCTHUuiMN" version="16.1.0" type="github">
+  <diagram id="xNLSGS-XFfk-PAizz5qD" name="第 1 页">
+    <mxGraphModel dx="1038" dy="491" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TjdTGnC2i5FTRjZvNToU-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TjdTGnC2i5FTRjZvNToU-1" target="TjdTGnC2i5FTRjZvNToU-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TjdTGnC2i5FTRjZvNToU-1" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="320" y="550" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TjdTGnC2i5FTRjZvNToU-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TjdTGnC2i5FTRjZvNToU-2" target="TjdTGnC2i5FTRjZvNToU-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TjdTGnC2i5FTRjZvNToU-2" value="开发者上传 补丁包" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="310" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TjdTGnC2i5FTRjZvNToU-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TjdTGnC2i5FTRjZvNToU-4" target="TjdTGnC2i5FTRjZvNToU-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TjdTGnC2i5FTRjZvNToU-4" value="管理员审核补丁包" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="310" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TjdTGnC2i5FTRjZvNToU-9" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TjdTGnC2i5FTRjZvNToU-6" target="TjdTGnC2i5FTRjZvNToU-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TjdTGnC2i5FTRjZvNToU-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TjdTGnC2i5FTRjZvNToU-6" target="TjdTGnC2i5FTRjZvNToU-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TjdTGnC2i5FTRjZvNToU-6" value="是否通过" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="315" y="880" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TjdTGnC2i5FTRjZvNToU-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TjdTGnC2i5FTRjZvNToU-8" target="TjdTGnC2i5FTRjZvNToU-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TjdTGnC2i5FTRjZvNToU-8" value="更新补丁状态为上架状态" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1010" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TjdTGnC2i5FTRjZvNToU-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TjdTGnC2i5FTRjZvNToU-10" target="TjdTGnC2i5FTRjZvNToU-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="920" />
+              <mxPoint x="650" y="1630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TjdTGnC2i5FTRjZvNToU-10" value="更新补丁状态为审核不通过" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="500" y="890" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TjdTGnC2i5FTRjZvNToU-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TjdTGnC2i5FTRjZvNToU-15" target="TjdTGnC2i5FTRjZvNToU-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TjdTGnC2i5FTRjZvNToU-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TjdTGnC2i5FTRjZvNToU-15" target="TjdTGnC2i5FTRjZvNToU-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TjdTGnC2i5FTRjZvNToU-15" value="管理员设置下发策略" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TjdTGnC2i5FTRjZvNToU-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TjdTGnC2i5FTRjZvNToU-18" target="TjdTGnC2i5FTRjZvNToU-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TjdTGnC2i5FTRjZvNToU-18" value="客户端后台进程拉取满足策略设定条件需强制安装的补丁" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="220" y="1250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TjdTGnC2i5FTRjZvNToU-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TjdTGnC2i5FTRjZvNToU-23" target="TjdTGnC2i5FTRjZvNToU-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="1510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TjdTGnC2i5FTRjZvNToU-23" value="后台进程静默&lt;br&gt;安装补丁" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="220" y="1360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TjdTGnC2i5FTRjZvNToU-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TjdTGnC2i5FTRjZvNToU-27" target="TjdTGnC2i5FTRjZvNToU-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TjdTGnC2i5FTRjZvNToU-27" value="用户点击检查更新，拉取补丁列表" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TjdTGnC2i5FTRjZvNToU-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TjdTGnC2i5FTRjZvNToU-30" target="TjdTGnC2i5FTRjZvNToU-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TjdTGnC2i5FTRjZvNToU-30" value="用户手动安装指定的补丁" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TjdTGnC2i5FTRjZvNToU-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TjdTGnC2i5FTRjZvNToU-34" target="TjdTGnC2i5FTRjZvNToU-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TjdTGnC2i5FTRjZvNToU-34" value="客户端定时同步安装结果到后台" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TjdTGnC2i5FTRjZvNToU-36" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1600" width="100" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
