@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-04T06:44:23.534Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="ieAjvsVbJ-RWyfJeRYz1" version="16.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-04T06:53:41.938Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="1qCHCRQ5Q_9qMuVDRSjs" version="16.1.2" type="github">
   <diagram id="Gp89k3uZ7JquAyVOH4Ro" name="第 1 页">
     <mxGraphModel dx="1221" dy="578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -34,8 +34,17 @@
         <mxCell id="KkLDeA1utWJuvQl8mLjJ-6" value="从接口请求应用市场适配本环境的应用列表" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="351" y="500" width="126" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="KkLDeA1utWJuvQl8mLjJ-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KkLDeA1utWJuvQl8mLjJ-8" target="KkLDeA1utWJuvQl8mLjJ-10">
+        <mxCell id="KkLDeA1utWJuvQl8mLjJ-11" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KkLDeA1utWJuvQl8mLjJ-8" target="KkLDeA1utWJuvQl8mLjJ-10">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KkLDeA1utWJuvQl8mLjJ-31" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KkLDeA1utWJuvQl8mLjJ-8" target="KkLDeA1utWJuvQl8mLjJ-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="227.99999999999977" y="640" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="640" />
+              <mxPoint x="220" y="1210" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="KkLDeA1utWJuvQl8mLjJ-8" value="应用列表是否为空" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="331" y="600" width="166" height="80" as="geometry" />
@@ -43,14 +52,22 @@
         <mxCell id="KkLDeA1utWJuvQl8mLjJ-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KkLDeA1utWJuvQl8mLjJ-10" target="KkLDeA1utWJuvQl8mLjJ-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KkLDeA1utWJuvQl8mLjJ-10" value="通过dpkg --list|grep -E &#39;\saspell\s | autoconf&#39; 查找本地已安装应用列表" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="KkLDeA1utWJuvQl8mLjJ-10" value="通过dpkg --list|grep -E &#39;\p1\s | \sp2\s&#39; 查找本地已安装应用列表" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="354" y="730" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KkLDeA1utWJuvQl8mLjJ-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KkLDeA1utWJuvQl8mLjJ-12" target="KkLDeA1utWJuvQl8mLjJ-14">
+        <mxCell id="KkLDeA1utWJuvQl8mLjJ-15" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KkLDeA1utWJuvQl8mLjJ-12" target="KkLDeA1utWJuvQl8mLjJ-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="KkLDeA1utWJuvQl8mLjJ-32" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KkLDeA1utWJuvQl8mLjJ-12" target="KkLDeA1utWJuvQl8mLjJ-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="880" />
+              <mxPoint x="290" y="1210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="KkLDeA1utWJuvQl8mLjJ-12" value="本地已安装&lt;br&gt;应用列表是否为空" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="351" y="840" width="126" height="80" as="geometry" />
+          <mxGeometry x="350" y="840" width="127" height="80" as="geometry" />
         </mxCell>
         <mxCell id="KkLDeA1utWJuvQl8mLjJ-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KkLDeA1utWJuvQl8mLjJ-14" target="KkLDeA1utWJuvQl8mLjJ-16">
           <mxGeometry relative="1" as="geometry" />
